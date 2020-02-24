@@ -1,0 +1,14 @@
+{{#if error}}
+<div>{{error}}</div>
+{{/if}}
+<form id="login-form" action="/login" method="POST">
+    <label>
+        Enter username:
+        <input type="text" name="username" id="username">
+    </label>
+    <label>
+        Enter password:
+        <input type="password" name="password" id="password">
+    </label>
+    <button type="submit">Login</button>
+</form>

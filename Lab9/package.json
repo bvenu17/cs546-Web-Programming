@@ -1,0 +1,20 @@
+{
+  "name": "cs546-lab9",
+  "version": "1.0.0",
+  "description": "client-side-javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev":"nodemon app.js"
+  },
+  "author": "Venugopal Balaji",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}

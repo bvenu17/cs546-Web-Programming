@@ -1,0 +1,15 @@
+{
+  "name": "cs-546-lab3",
+  "version": "1.0.0",
+  "description": "async and await ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Venugopal Balaji 10446195",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0"
+  }
+}
